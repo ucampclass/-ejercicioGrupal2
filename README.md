@@ -11,14 +11,14 @@ browserSync.init({
     server: "./app"
 });
 ```
-- Debes configurar tu index.js para que cuando ejecutes npm start.
-- Crea una carpeta app y en su interior debes crear un archivo index.html. Debes importar bootstrap.
+- Debes configurar tu index.js para cuando ejecutes npm start.
+- Crea una carpeta app y en su interior debes crear un archivo index.html. Debes agregar bootstrap.
 - Agrega un select en tu index.html. Usa la clase de bootstrap para darle estilo.
 - Debes crear un nuevo archivo js dentro de la carpeta app. Este archivo se debe llamar peticion.js y en su interior deberas utilizar el método fetch para realizar una solicitud a un servidor.
 
 La url que debes agregar al fetch es https://jsonplaceholder.typicode.com/users
 - Una vez obtenido los datos, debes agregar esta información al select por medio de javascript.
-- Ya que se muestran los datos en el select, ahora cada vez que el usuario seleccione una opción deberas recuperar el id del valor seleccionado y deberas hacer una nueva peticiín usando fetch y pasando el id seleccionado. 
+- Ya que se muestran los datos en el select, ahora cada vez que el usuario seleccione una opción, deberas recuperar el id del valor seleccionado y deberas hacer una nueva peticiín usando fetch pasando el id seleccionado. 
 
 Ejemplo
 https://jsonplaceholder.typicode.com/users/{ID}
