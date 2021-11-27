@@ -32,8 +32,8 @@ Nota: Adicionalmente debes agregar un loader para indicar al usuario que esta ca
 
 ### Recursos 
 
-toastr ->  ***https://github.com/CodeSeven/toastr***
-loader -> ***https://loading.io/spinner/***
+- toastr ->  ***https://github.com/CodeSeven/toastr***
+- loader -> ***https://loading.io/spinner/***
 
 
 Una vez finalizada, deberas subir este ejercicio al repositorio
